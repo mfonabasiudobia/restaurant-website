@@ -3,8 +3,10 @@ module.exports = {
   theme: {
     extend: {
         backgroundImage : {
-          'intro' : "url('/public/images/hero-bg.png')",
-          'modal' : "url('/public/images/bg/vibra.png')",
+          'intro' : "url('/public/images/page_title.jpg')",
+        },
+        animation : {
+          'spin-slow' : 'spin 10s linear infinite'
         },
       colors: {
         green : {
