@@ -6,13 +6,13 @@ import { routes } from "utils/enum";
 
 
 const styles = {
-	wrapper : `bg-intro py-16 text-white`,
+	wrapper : `bg-intro py-16`,
 	container : `container grid sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-0`,
 	sectionTitle : `font-bold text-orange-500`,
 	linksWrapper : `text-xs space-y-2 font-light`,
-	section : `space-y-2`,
+	section : `space-y-2 text-white`,
 	socialsWrapper: `flex space-x-2 items-center`,
-	socialIcon : `rounded-full bg-white p-2 text-orange-500`
+	socialIcon : `rounded-full bg-white p-2`
 }
 
 const Footer = () => {

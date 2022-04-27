@@ -14,8 +14,8 @@ const styles = {
 	innerItem : `hidden cursor-default group-hover:flex space-x-3 items-center justify-center absolute top-0 left-0 w-full h-full after:bg-black after:opacity-70 after:absolute after:top-0 after:left-0 after:w-full after:h-full after:z-0`,
 	footer : `text-center space-y-1`,
 	category : `text-uppercase  font-medium`,
-	name : `text-sm  font-medium text-yellow-500`,
-	innerBtn : `w-10 h-10 relative z-20 flex items-center justify-center border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white`
+	name : `text-sm  font-medium text-orange-500`,
+	innerBtn : `w-10 h-10 relative z-20 flex items-center justify-center border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white`
 }
 
 const Product = (props : any) => {

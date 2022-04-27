@@ -21,8 +21,8 @@ const Home = () => {
 						<h1 className={styles.title}>Welcome to Group6 Restaurant</h1>
 						<p>Get 10% instant off for all order and $200 signup bonus today for new registration!</p>
 						<div className="flex space-x-3 items-center">
-							<img src="/svgs/apps-store.svg" className="h-14" />
-							<img src="/svgs/play-store.svg" className="h-14" />
+							<img src="/svgs/apps-store.svg" className="h-14 flex-1" />
+							<img src="/svgs/play-store.svg" className="h-14 flex-1" />
 						</div>
 					</div>
 					<div className={styles.right}>
